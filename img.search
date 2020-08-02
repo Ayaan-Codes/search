@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="logo1">
+            <a href="#">
+            <img alt="Google" src="https://i.imgur.com/bxO22iG.png">
+            </a>
+        </div>
+
+        <form class="center" action="https://google.com/search">
+            <input type="text" name="q" class="text"> 
+            <input type="hidden" name="tbm" value="isch">
+
+            <div>
+                <input type="submit" value="Google Image Search" class="button">
+            </div>
+        </form>
+
+        <div class="topright">
+            <a href="index.html">Google Search</a>
+    </body>
+</html>
