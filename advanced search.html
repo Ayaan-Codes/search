@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+        <img alt="Google" src="https://www.edigitalagency.com.au/wp-content/uploads/small-google-logo-png-transparent-background-210x70.png" width="50%" height="50%" loading="lazy">
+        </a>
+        </nav>
+
+        <div id="Advanced">
+            <p style="font-weight:bold; font-size:18px;"> Advanced Search </p>
+        </div>
+
+        <span id="find"> Find pages with...</span>
+
+        <p id="all0"> all these words: </p>
+        <p id="all1"> this exact word or phrase: </p>
+        <p id="all2"> any of these words: </p>
+        <p id="all3"> none of these words: </p>
+
+        <form action="https://google.com/search">    
+
+        <div id="vertical0">
+            <input type="text" name="q" size="60"> 
+        </div>
+            
+        <div id="vertical1">
+            <input type="text" name="as_epq" size="60"> 
+        </div> 
+
+        <div id="vertical2">
+            <input type="text" name="q" size="60"> 
+        </div>
+
+        <div id="vertical3">
+            <input type="text" name="as_eq" size="60">  
+        </div> 
+
+        <div id="a-b">
+            <button type="submit" class="btn btn-primary btn-sm">Advanced Search </button>
+        </div>
+
+        </form>
+     
+        <p id="to0"> To do this in the search box. </p>
+        <p id="to1"> Type the important words: tri-colour rat terrier </p>
+        <p id="to2"> Put exact words in quotes: "rat terrier" </p>
+        <p id="to3"> Type OR between all the words you want: miniature OR standard </p>
+        <p id="to4"> Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </p>
+
+        <div class="topright">
+            <a href="index.html">Google Search</a>
+    </body>
+</html>
