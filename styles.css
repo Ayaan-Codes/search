@@ -1,0 +1,259 @@
+.topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.belowtopright{
+    position: absolute;
+    top: 35px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.center{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+     
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+input:focus{
+    border-color:#4d90fe;
+}
+
+.text{
+    border-radius: 25px;
+    padding: 8px 8px 8px 29px;
+    margin: 20px;
+    width: 500px;
+    height: 39px;
+} 
+
+@media (max-width: 599px){
+    .text {
+      width: 60%
+    }
+
+}
+.button{
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+}
+  
+  
+.logo{
+    text-align: center;
+    position: absolute;
+    top: 21%;
+    width: 100%;
+}
+
+.logo1{
+    text-align: center;
+    position: absolute;
+    top: 17%;
+    width: 100%;
+}
+
+
+@media (max-width: 599px){
+    .logo{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    }           
+}
+
+#Advanced{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-size: 100%;
+    color: #d93025;
+    font-family: arial,sans-serif;
+}
+
+#find{
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: arial,sans-serif;
+}
+  
+#vertical0{
+    position: absolute;
+    top: 27%;
+    width: 100%;
+    left: 300px;
+    float: left;
+}
+  
+#all0{
+    position: absolute;
+    top: 27%;
+    left: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: arial,sans-serif;
+}
+
+#vertical1{
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    left: 300px;
+    float: left;
+}
+
+#all1{
+    position: absolute;
+    top: 33%;
+    left: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: arial,sans-serif;
+}
+
+#vertical2{
+    position: absolute;
+    top: 39%;
+    width: 100%;
+    left: 300px;
+    float: left;
+}
+
+#all2{
+    position: absolute;
+    top: 39%;
+    left: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: arial,sans-serif;
+}
+
+#vertical3{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    left: 300px;
+    float: left;
+}
+
+#all3{
+    position: absolute;
+    top: 45%;
+    left: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: arial,sans-serif;
+}
+
+#to0{
+    position: absolute;
+    top: 20%;
+    right: -850px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    height: 30px;
+    font-family: arial,sans-serif;
+}
+
+#to1{
+    position: absolute;
+    top: 27%;
+    right: -858px;
+    width: 100%;
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+#to2{
+    position: absolute;
+    top: 33%;
+    right: -858px;
+    width: 100%;
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+#to3{
+    position: absolute;
+    top: 39%;
+    right: -858px;
+    width: 100%;
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+#to4{
+    position: absolute;
+    top: 45%;
+    right: -858px;
+    width: 100%;
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+#a-b{
+    position: fixed;
+    top: 50%;
+    right: 827px;
+}
